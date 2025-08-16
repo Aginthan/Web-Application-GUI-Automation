@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as Ec
 import time
 from selenium.webdriver.chrome.options import Options
-#import chrome options
+#import chrome options_1
 
 # System.setProperty("webdriver.chrome.driver","C:\Users\Aginthan\Desktop\Automation\chromedriver.exe")
 ChromeOptions =Options()

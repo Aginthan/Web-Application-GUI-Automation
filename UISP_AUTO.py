@@ -11,7 +11,7 @@ with sync_playwright() as playwright:
     page.goto("https://skamgq.uisp.com/nms/devices")
     
     
-#//VALAR
+#//VALAR_1
     valar = page.locator("xpath=//td[contains(@data-autotest,'tableColumn:identification.displayName')]//div//div//span//span//div[contains(text(),'AMAIA')]")
     valar.click()
     manage = page.locator("xpath=//button[contains(@data-testid,'Manage')]//span//div")
